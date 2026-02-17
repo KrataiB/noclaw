@@ -1,0 +1,24 @@
+# Source files (not needed in published package)
+src/
+specs/
+.specify/
+
+# Build configs
+tsup.config.ts
+tsconfig.json
+bun.lock
+
+# Compiled binary (standalone, not for npm)
+noclaw
+
+# Dev/IDE files
+.gitignore
+.DS_Store
+.idea/
+.vscode/
+*.log
+coverage/
+*.tgz
+
+# Documentation (dev-only)
+README.md
